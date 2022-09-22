@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Portifolio</title>
+
+  <link rel="stylesheet/less" type="text/css" href="./src/styles/global.css" />
+
+  <script src="https://cdn.jsdelivr.net/npm/proxy-polyfill@0.3.0/proxy.min.js"></script>
+  <script type="importmap">
+    {
+      "imports": {
+        "lit": "https://esm.sh/lit?bundle",
+        "haunted": "https://esm.sh/haunted?bundle"
+      }
+    }
+  </script>
+
+  <script type="module" src="index.js"></script>
+
+  <style>
+    .image, .image.skeleton {
+      width: 200px;
+      height: 200px;
+    }
+
+    .name, .name.skeleton {
+      height: 37px !important;
+    }
+
+    p.skeleton {
+      height: 18px;
+    }
+
+    .skeleton {
+      border-radius: 4px;
+      background-color: #e2e5e7;
+      background-image:
+        linear-gradient(90deg,
+          rgba(255, 255, 255, 0),
+          rgba(255, 255, 255, 0.5),
+          rgba(255, 255, 255, 0));
+      background-size: 40px 100%;
+      background-repeat: no-repeat;
+      background-position: left -40px top 0;
+      animation: shine 1s ease infinite;
+    }
+
+    @keyframes shine {
+      from {
+        background-position: left -40px top 0;
+      }
+      to {
+        background-position: right -40px top 0;
+      }
+    }
+  </style>
+</head>
+<body style="display: flex;">
+  <details-header>
+    <header>
+      <div class="image skeleton"></div>
+    
+      <!-- name -->
+      <h1 class="name skeleton"></h1>
+    
+      <!-- email -->
+      <p class="skeleton"></p>
+      <!-- phone -->
+      <p class="skeleton"></p>
+    </header>
+  </details-header>
+  
+  <tabs-navigation></tabs-navigation>
+</body>
+</html>
