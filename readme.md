@@ -1,4 +1,4 @@
-# Alexandria
+# CodeJournal
 Virtual library with all blog and linkedin content.
 
 ## Structure 
