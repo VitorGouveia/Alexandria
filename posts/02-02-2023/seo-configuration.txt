@@ -1,5 +1,5 @@
 # Urchin Traffic Monitor
-utm_id        = <id_da_campanha>
+utm_id        = 1
 utm_source    = linkedin
 utm_medium    = post
 utm_campaign  = javascript-native-apis

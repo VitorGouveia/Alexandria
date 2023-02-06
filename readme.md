@@ -1,27 +1,37 @@
 # Alexandria
-Biblioteca virtual com todos os meus conhecimentos já compartilhados no Blog ou LinkedIn.
+Virtual library with all blog and linkedin content.
 
-## Estrutura
-Todos os posts estão na pasta `posts`, cada post é composto (geralmente) de dois arquivos, um nomeado "linkedin.md" e outro nomeado "blog.md", assim como um arquivo de configuração de SEO chamado "seo-configuration.txt", cada post é armazenado em uma pasta, a pasta tem como nome a data em que o post foi criado.
+## Structure 
+All posts are inside the `posts` folder, each post follows the structure below: 
+
+| **Name**              | **Description**                     |
+|-----------------------|-------------------------------------|
+| linkedin.md           | Content of the linkedin publication |
+| blog.md               | Content of the blog publication     |
+| seo-configuration.txt | SEO & URL configuration             |
+
+Each post is also stored inside a folder, with the date of when it was published. The date follows the pattern below:
+
+"dd-mm-yy"
 
 ## UTM
-Urchin Traffic Monitor é utilizado pelo Google Ads e LinkLabs para identificar o tráfego e gerar estatísicas.
+The `Urchin Traffic Monitor` is utilized by Google Ads and LinkLabs to identify traffic and build statistics.
 
-Pode-se utilizar o site abaixo para criar URLs com os UTMs. 
+You can use the site below to create URLs with the UTM tags.
 
 [Campaign URL Builder](https://ga-dev-tools.web.app/campaign-url-builder)
 
 ### Tags
 
-| **Tag**      | **Descrição**                               |
+| **Tag**      | **Description**                             |
 |--------------|---------------------------------------------|
-| utm_id       | <id da campanha>                            |
-| utm_source   | site de onde vem o tráfego                  |
-| utm_medium   | meio por onde a pessoa clicou no link       |
-| utm_campaign | nome da campanha de anúncio                 |
-| utm_term     | as palavras chave utilizada no `utm_medium` |
+| utm_id       | <campaign id>                               |
+| utm_source   | which website brought the audience          |
+| utm_medium   | medium which brought the audience (post etc)|
+| utm_campaign | ad campaign name                            |
+| utm_term     | keywords used inside `utm_medium`           |
 
-## Criando um novo post
-Utilize nossa API para criar posts de forma automática e simples.
+## Creating a new post
+Utilize our API to generate new posts programmatically.
 
-🚧 Em construção 🚧
+🚧 In progress 🚧
