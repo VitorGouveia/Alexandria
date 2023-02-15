@@ -1,0 +1,8 @@
+# Urchin Traffic Monitor
+utm_id        = 2
+utm_source    = linkedin
+utm_medium    = post
+utm_campaign  = nextjs-og-image
+utm_term      = serverless, nextjs, edgecomputing
+
+# LinkLabs
