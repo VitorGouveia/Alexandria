@@ -1,0 +1,8 @@
+# Urchin Traffic Monitor
+utm_id        = 4
+utm_source    = linkedin
+utm_medium    = post
+utm_campaign  = pipe-operator-solution
+utm_term      = javascript, functionalprogramming
+
+# LinkLabs
